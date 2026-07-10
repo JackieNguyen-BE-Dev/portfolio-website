@@ -8,9 +8,8 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel src/index.html",
-    "predeploy": "npm run build",
-    "build": "parcel build src/index.html --dist-dir build --public-url /portfolio-website/",
-    "deploy": "gh-pages -d build"
+    "build": "parcel build src/index.html --dist-dir dist --public-url /portfolio-website/",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "keywords": [],
   "license": "ISC",
