@@ -10,7 +10,7 @@
     "start": "parcel",
     "predeploy": "npm run build",
     "build": "parcel build",
-    "deploy": "gh-page -d dist"
+    "deploy": "gh-page -d build"
   },
   "keywords": [],
   "license": "ISC",
